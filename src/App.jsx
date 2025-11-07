@@ -4,10 +4,10 @@ import ProfilePicture from './components/profilePicture/profilePicture'
 import LinkCard from './components/linkCard/linkCard'
 
 import youtubeLogo from "./assets/youtube.png"
-import gitHubLogo from "./assets/GitHub.png"
-import instagramLogo from "./assets/Instagram.png"
-import linkedinLogo from "./assets/LinkedIn.png"
-import xLogo from "./assets/X.png"
+import gitHubLogo from "./assets/github.png"
+import instagramLogo from "./assets/instagram.png"
+import linkedinLogo from "./assets/linkedin.png"
+import xLogo from "./assets/x.png"
 import Header from './components/header/header'
 
 
@@ -19,22 +19,22 @@ function App() {
       linkName: "YouTube",
     },
     {
-      link: "https://www.youtube.com/@caiotoledodev",
+      link: "https://github.com/caiogtoledo",
       logo: gitHubLogo,
       linkName: "GitHub",
     },
     {
-      link: "https://www.youtube.com/@caiotoledodev",
+      link: "https://www.linkedin.com/in/caio-toledo",
       logo: linkedinLogo,
       linkName: "LinkedIn",
     },
     {
-      link: "https://www.youtube.com/@caiotoledodev",
+      link: "https://www.instagram.com/caiotoledo.dev/",
       logo: instagramLogo,
       linkName: "Instagram",
     },
     {
-      link: "https://www.youtube.com/@caiotoledodev",
+      link: "https://x.com/caiogtoledo",
       logo: xLogo,
       linkName: "X",
     }
