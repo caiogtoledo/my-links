@@ -3,11 +3,11 @@ import './App.css'
 import ProfilePicture from './components/profilePicture/profilePicture'
 import LinkCard from './components/linkCard/linkCard'
 
-import youtubeLogo from "./assets/youtube.png"
-import gitHubLogo from "./assets/github.png"
-import instagramLogo from "./assets/instagram.png"
-import linkedinLogo from "./assets/linkedin.png"
-import xLogo from "./assets/x.png"
+import youtubeLogo from "./Assets/youtube.png"
+import gitHubLogo from "./Assets/github.png"
+import instagramLogo from "./Assets/instagram.png"
+import linkedinLogo from "./Assets/linkedin.png"
+import xLogo from "./Assets/x.png"
 import Header from './components/header/header'
 
 
