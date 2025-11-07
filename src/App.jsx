@@ -2,12 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import ProfilePicture from './components/profilePicture/profilePicture'
 import LinkCard from './components/linkCard/linkCard'
-
-import youtubeLogo from "./Assets/youtube.png"
-import gitHubLogo from "./Assets/github.png"
-import instagramLogo from "./Assets/instagram.png"
-import linkedinLogo from "./Assets/linkedin.png"
-import xLogo from "./Assets/x.png"
 import Header from './components/header/header'
 
 
@@ -15,27 +9,27 @@ function App() {
   const [links, setLinks] = useState([
     {
       link: "https://www.youtube.com/@caiotoledodev",
-      logo: youtubeLogo,
+      logo: "/youtube.png",
       linkName: "YouTube",
     },
     {
       link: "https://github.com/caiogtoledo",
-      logo: gitHubLogo,
+      logo: "/github.png",
       linkName: "GitHub",
     },
     {
       link: "https://www.linkedin.com/in/caio-toledo",
-      logo: linkedinLogo,
+      logo: "/linkedin.png",
       linkName: "LinkedIn",
     },
     {
       link: "https://www.instagram.com/caiotoledo.dev/",
-      logo: instagramLogo,
+      logo: "/instagram.png",
       linkName: "Instagram",
     },
     {
       link: "https://x.com/caiogtoledo",
-      logo: xLogo,
+      logo: "/x.png",
       linkName: "X",
     }
   ])

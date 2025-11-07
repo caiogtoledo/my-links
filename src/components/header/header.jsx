@@ -1,10 +1,9 @@
-import glasses from "../../assets/glasses.png"
 import "./header.css"
 
 function Header() {
     return (
         <img
-            src={glasses}
+            src="/glasses.png"
             className="header-pic"
         >
         </img>
