@@ -1,18 +1,47 @@
-# React + Vite
+# Meus Links
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de uma página de links pessoais, semelhante a um "link na bio", onde você pode agrupar e exibir seus links importantes em um só lugar.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
 
-## React Compiler
+## ▶️ Como Rodar o Projeto
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Siga os passos abaixo para executar o projeto em seu ambiente de desenvolvimento.
 
-Note: This will impact Vite dev & build performances.
+1.  **Clone o repositório (se aplicável):**
+    ```bash
+    git clone <url-do-repositorio>
+    cd my-links
+    ```
 
-## Expanding the ESLint configuration
+2.  **Instale as dependências:**
+    Certifique-se de ter o [Node.js](https://nodejs.org/) instalado. Em seguida, instale as dependências do projeto.
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.  **Execute a aplicação:**
+    O comando abaixo iniciará o servidor de desenvolvimento.
+    ```bash
+    npm run dev
+    ```
+
+    A aplicação estará disponível em `http://localhost:5173` (ou outra porta, se a 5173 estiver em uso).
+
+## 📂 Estrutura de Pastas
+
+O projeto está organizado da seguinte forma:
+
+-   **/public**: Contém arquivos estáticos como imagens e ícones que são servidos diretamente pelo servidor.
+-   **/src**: Contém todo o código-fonte da aplicação.
+    -   **assets**: Recursos como imagens e fontes que são processados pelo Vite.
+    -   **components**: Componentes React reutilizáveis que formam a interface do usuário (cabeçalho, rodapé, cartões de link, etc.).
+    -   **external**: Arquivos que contêm dados externos, como a lista de links.
+    -   **main.jsx**: O ponto de entrada da aplicação React.
+    -   **App.jsx**: O componente principal que organiza a estrutura da página.
+-   **index.html**: O template HTML principal da aplicação.
+-   **vite.config.js**: Arquivo de configuração do Vite.
+-   **package.json**: Define os scripts e as dependências do projeto.
